@@ -7,11 +7,12 @@ const person = { //object with key and value
     dob: new Date ("12-09-1998")
 };
 
-person.hobby = "pool";
+// person.hobby = "pool";
 
 console.log(person.dob)
 console.log(person.phone)
-console.log(person.hobby)
+// console.log(person.hobby)
+console.log(person["phone"]);
 
 const fruit = [ //array
     "apple", 
