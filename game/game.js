@@ -19,9 +19,9 @@ function Sprite(namePerameter, kindPerameter, posPerameter){
     };
 };
 spriteList.push(Sprite("Capt. Lee", "wizard", Position (10,5)));
-spriteList.push(Sprite("venom", "parasite", Position(20, 10) ));
-spriteList.push(Sprite("Capt. Lee", "wizard", Position (15,10)));
-spriteList.push(Sprite("venom", "parasite", Position(20, 15) ));
+spriteList.push(Sprite("venom1", "parasite", Position(20, 10) ));
+spriteList.push(Sprite("Capt. Jenny", "wizard", Position (15,10)));
+spriteList.push(Sprite("venom2", "parasite", Position(20, 15) ));
 
 function getHeroList(){
     for(let i = 0; i < spriteList.length; i++){

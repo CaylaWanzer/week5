@@ -172,7 +172,88 @@
 // console.log("Your meal costs " + totalWithTip.toFixed(2));
 
 
-// exercise pg 30////////////////////////////////////
+// expanding an array////////////////////////////////////
+// let kids = ["Natalie", "Brittany", "Zachary"];
+// kids[3] = "Brandon";
+// kids[5] = "Christina";
+// console.log(kids);
+
+// ["Natalie",
+// "Brittany",
+// "Zachary",
+// "Brandon",
+// "Christina"]
+
+// let teams = ["Red Sox", "Rangers", "Blue Jays",
+//     "Astros", "White Sox", "Rangers"];
+
+//     let index = teams.indexOf("Rangers", 3); // returns 1
+//     if (index == -1)
+//         console.log("Item not found");
+//         else
+//         console.log("Item at position: " + index);
+
+// let teams = ["Red Sox", "Rangers", "Blue Jays",
+//     "Astros", "White Sox", "Rangers"];
+//     let firstIndex = teams.indexOf("Rangers"); 
+//     let lastIndex = teams.lastIndexOf("Rangers"); 
+//     console.log(firstIndex);
+//     console.log(lastIndex);
+    
+// let menu = [
+//     {id: 1, item: "Tacos", category: "Meal", price: 12.29},
+//     {id: 2, item: "Burger", category: "Meal", price: 7.29},
+//     {id: 3, item: "Salad", category: "Meal", price: 8.29},
+//     {id: 4, item: "Ice tea", category: "Drink", price: 2.19},
+//     {id: 5, item: "Coke", category: "Drink", price: 2.29},
+   
+//     ];
+//     function getMenuItemsInCategory(menu, category) {
+//         let matching = [];
+//         let numItems = menu.length;
+//         for(let i = 0; i < numItems; i++) {
+//         if (menu[i].category == category) {
+//             matching.push(menu[i]);
+//             }
+//         }
+//     return matching;
+    
+// }
+//     // show all the drinks
+//     let drinks = getMenuItemsInCategory(menu, "Drink");
+//     let numDrinks = drinks.length;
+//     for(let i = 0; i < numDrinks; i++) {
+//         console.log(drinks[i].item +
+//          " $" + drinks[i].price.toFixed(2));
+    // }
+
+
+    //////sorting an array/////////////////
+
+//  let kids = ["Natalie", "Brittany", "Zachary"];
+// kids.sort(); // Sorts the array
+// let numKids = kids.length;
+// for(let i = 0; i < numKids; i++) {
+// console.log(kids[i]);
+// }
+
+
+
+let kids = [ "Brittany", "Zachary"];
+// kids.push("cayla");
+for(let i = 0; i < 3; i++) {
+console.log(kids[i]);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
